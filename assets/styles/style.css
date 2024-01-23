@@ -71,7 +71,9 @@ body {
 .customSlider:checked ~ .wrapper {
     color: #fff;
     transition: background 0.6s ease;
-    background: #31394d;
+    background: url(../imgs/artline-black.png);
+    background-size: 100px;
+    background-repeat: repeat;
     /* --blackwhite:#fff; */
     /* var(--blackwhite,#e) */
 }
@@ -100,7 +102,10 @@ body {
 .wrapper {
     width: 320px;
     height: 540px;
-    background: #eeeeec;
+    background:  url(../imgs/artline.png) , rgba(255, 255, 255, 0.227)  ;
+    /* opacity: 0.5; */
+    background-size: 100px;
+    background-repeat: repeat;
     transition: background 0.6s ease;
     border-radius: 10px;
     padding: 20px 20px 20px 20px;
@@ -163,7 +168,7 @@ body {
     text-align: center;
 }
 .wrapper .profile .title {
-    color: #7c8097;
+    color: #c5c7d4;
     font-size: 0.75em;
     font-weight: 300;
     text-align: center;
